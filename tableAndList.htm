@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and list</title>
+    <style>
+        tr, td, th {
+            border: 2px double crimson;
+            border-radius: 4px;
+            border-collapse: collapse;
+            padding: 20px;
+            margin: 20px;
+        }
+        tr:nth-child(even) {
+            background-color: brown;
+        }
+        #doAn {
+            list-style-type: armenian;
+        }
+        .an {
+            color: rgb(100, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>STT</th>
+            <th>Họ</th>
+            <th>Tên</th>
+            <th>Tuổi</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>Nguyễn</td>
+            <td>Tùng</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Nguyễn</td>
+            <td>Lộc</td>
+            <td>22</td>
+        </tr>
+    </table>
+    <ul id="doAn">
+        <li>Cơm</li>
+        <li>Bún</li>
+        <li>Phở</li>
+    </ul>
+    <ol class="an" type="i" start="10">
+        <li>Mỳ</li>
+        <li>Cháo</li>
+    </ol>
+    <dl>
+        <dt>Cà phê</dt>
+        <dd>Đồ uống đắng</dd>
+        <dt>Nước dừa</dt>
+        <dd>Ngọt</dd>
+    </dl>
+</body>
+</html>

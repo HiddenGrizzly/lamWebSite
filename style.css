@@ -1,0 +1,14 @@
+body {
+    background-image: url("image/test.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+#vanBan {
+    color: red;
+}
+.vanBanVang {
+    color: gold;
+}
+.phongTo {
+    font-size: 100px;
+}
