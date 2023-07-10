@@ -4,19 +4,19 @@ const information = [
       title: 'Organic Garden',
       image: 'image/Organic-Garden.jpg',
       description: 'Information about organic gardening',
-      link: 'organic-garden.html'
+      link: 'infomation/organic-garden.html'
     },
     {
       title: 'Vegetable Garden',
       image: 'image/Vegetable-Garden.jpg',
       description: 'Information about vegetable gardening',
-      link: 'vegetable-garden.html'
+      link: 'infomation/vegetable-garden.html'
     },
     {
       title: 'Vertical Garden',
       image: 'image/Vertical-Garden.jpg',
       description: 'Information about vertical gardening',
-      link: 'vertical-garden.html'
+      link: 'infomation/vertical-garden.html'
     }
   ];
   
