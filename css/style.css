@@ -275,7 +275,8 @@ footer {
   
 #my-map {
     display: none;
-    width: 50%;
+    width: 20%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -286,4 +287,8 @@ footer {
 @font-face {
     font-family: 'hand-writing';
     src: url('Cookie-Regular.ttf') format('truetype');
+}
+
+.infomation {
+    padding: 15px 80px;
 }
