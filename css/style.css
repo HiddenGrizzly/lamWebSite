@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Arial, Helvetica, sans-serif
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 .menu-bar {
     display: inline-flex;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(20, 110, 20, 0.9) 0%, rgb(193, 232, 160) 100%);
+    background: #444;
     width: 100%;
     height: 80px;
     font-size: 35px;
@@ -40,7 +40,7 @@ body {
 
 .menu-bar ul li a {
     text-decoration: none;
-    color: rgb(10, 10, 10);
+    color: #fff;
     font-size: 25px;
 }
 
@@ -61,6 +61,8 @@ body {
 .sub-menu ul li {
     padding: 5px 10px;
     text-align: left;
+    background-color: #3333337d;
+    border-radius: 10%;
 }
 
 .menu-bar ul li:hover .sub-menu {
@@ -71,7 +73,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(111, 95, 11, 0.9) 0%, rgb(191, 219, 92) 100%);
+    background: whitesmoke;
 }
 
 #greet-1, #greet-2, #greet-3, #greet-4 {
@@ -96,26 +98,28 @@ body {
 
 .search-info {
     width: 100%;
-    background: linear-gradient(to bottom, rgba(20, 110, 20, 0.9) 0%, rgb(193, 232, 160) 100%);
     text-align: center;
-}
-
-.heading {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 30px;
 }
 
 #search-input {
-    border: 2px solid rgba(170, 14, 14, 0.785);
+    border: 1px solid rgba(30, 20, 20, 0.785);
     border-radius: 10px;
     text-align: center;
-    padding: 10px 100px;
-    margin: 0px 40px 40px;
+    padding: 10px 80px;
+    margin: auto;
+}
+
+.icon {
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
 }
 
 .info {
     text-align: center;
+    background-color: whitesmoke ;
 }
 
 .slide-img {
@@ -147,7 +151,7 @@ top: 60%;
 width: auto;
 margin-top: -22px;
 padding: 16px;
-color: rgb(222, 21, 21);
+color: rgb(0, 0, 0);
 font-weight: bold;
 font-size: 18px;
 transition:.6sease;
@@ -167,7 +171,7 @@ border-radius:6px 0 0 6px;
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,.next:hover{
-background-color:rgba(0,0,0,.3);
+background-color:rgba(63, 55, 55, 0.3);
 }
 
 /* Caption text */
@@ -216,6 +220,7 @@ background-color:#bbb;border-radius:50%;display:inline-block;transition: backgro
 .products {
     width: 100%;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .products-img {
@@ -228,6 +233,7 @@ background-color:#bbb;border-radius:50%;display:inline-block;transition: backgro
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
+    background-color: whitesmoke;
 }
 
 footer {
