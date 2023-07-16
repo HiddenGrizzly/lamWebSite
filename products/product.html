@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earthy garden</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/infomation.css">
 </head>
 <body>
     <div class="menu-bar">
@@ -53,75 +52,26 @@
             </ul>
         </div>
     </div>
-    <div class="infomation-container">
-        <h1>THINGS NEEDED TO GET STARTED WITH TERRACE GARDENING</h1>
-        <p>
-            Now that you are convinced of the benefits of terrace gardening and are ready
-            to set up your garden, it is time to learn about some of the tools to get started
-            with your terrace garden.
-        </p>
-        <h2>SPACE</h2>
-        <div class="info-block">
-            <p class="info-text">
-                First you need to determine how much space you have for starting your
-                garden. This is essential to determine the number of pots that can be accommodated. 
-            </p>
+    <div class="products-list"></div>
+        <div class="product-details" style="display: none;">
+            <img src="" alt="" class="product-details-img">
+            <div class="product-details-info">
+                <h2 class="product-details-name"></h2>
+                <p class="product-details-description"></p>
+                <p class="product-details-price"></p>
+                <button onclick="addToCart()">Add to Cart</button>
+                <button onclick="hideProductDetails()">Back to Products</button>
+            </div>
         </div>
-        <h2>SUNLIGHT</h2>
-        <div class="info-block">
-            <p class="info-text">
-                Sunlight is absolutely essential for plants to grow properly. Ensure that your
-                terrace receives full to partial sunlight.
-            </p>
-        </div>
-        <h2>WATER</h2>
-        <div class="info-block">
-            <p class="info-text">
-                Make sure you have access to a water source on your terrace. Most houses
-                should have a water tank with a tap from where water can be sourced for
-                watering the plants. If you don’t have such an option, arrange an appropriate
-                medium for accessing water.
-            </p>
-        </div>
-        <h2>SHADE NET</h2>
-        <div class="info-block">
-            <p class="info-text">
-                As much as plants love the sunshine, too much of it
-                can wilt the plants, if not kill them. You can
-                buy a shade net from an online store or reuse an old mosquito net to protect
-                container plants from excessive heat and torrential rains.
-            </p>
-            <img src="/image/infomation/shade.jpg" alt="shade" class="info-img">
-        </div>
-        <h2>TRELLIS OR POLES</h2>
-        <div class="info-block">
-            <p class="info-text">
-                If you plan to set up a vegetable garden, make sure you have a
-                trellis for climbers and creepers to grow comfortably. You can use
-                wooden poles; PVC pipes or bamboo sticks to create a square or
-                rectangular support for the plants.
-            </p>
-            <img src="/image/infomation/trelis.jpg" alt="trellis" class="info-img">
-        </div>
-        <h2>GARDEN TOOLS</h2>
-        <div class="info-block">
-            <p class="info-text">
-                As you start to garden, you’ll realize that you need some essential tools to mix
-                the soil, cut your dried flower stems or remove the fruits and vegetables without 
-                damaging the plants. For starters, get yourselves a pair of good rubber gloves, a
-                shear, a rake and a sprayer. You can buy other essentials as you grow your
-                garden. Having a rack space to store the essentials also helps. 
-            </p>
-            <img src="/image/infomation/tools.jpg" alt="tools" class="info-img">
-        </div>
-    </div>
+        <div class="cart" style="display: none;"></div>
+        <button onclick="hideCart()">Back to Products</button>
+        <button onclick="viewCart()">View Cart</button>
     <footer>
         <div class="footer-content">
           <div class="about-us">
             <h2 id="us">About Us</h2>
             <p>We are a group of students who created this website as part of our project. Our goal is to share our passion for gardening and provide useful information and products to help others discover the joys of gardening. We hope you find our website helpful and informative, and we welcome your feedback and suggestions.</p>
           </div>
-        </div>
         <div class="social-media">
           <p>You can find us on:</p>
           <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -136,9 +86,12 @@
         <div class="copy-right">
           © 2023 Earthy Garden. All rights reserved.
         </div>
+        </div>
       </footer>
-    <script src="js/search.js"></script>
-    <script src="js/show-map.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/show-map.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/test-product.js"></script>
     <script src="https://kit.fontawesome.com/e63aaab90b.js" crossorigin="anonymous"></script>
 </body>
 </html>

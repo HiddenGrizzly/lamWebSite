@@ -246,18 +246,11 @@ footer {
     display: flex;
 }
   
-.about-us,
-.feedback-form {
-    flex-basis: calc(50% - 10px);
+.about-us {
     margin: 5px;
 }
   
-.feedback-form label,
-.feedback-form input {
-    display: block;
-}
-  
-  .social-media {
+.social-media {
     text-align: center;
 }
   
@@ -268,15 +261,6 @@ footer {
   
 .copy-right {
     text-align: center;
-}
-
-.form-row {
-    display: flex;
-}
-  
-.form-row label {
-    flex-basis: calc(50% - 10px);
-    margin: 5px;
 }
   
 #my-map {
@@ -302,4 +286,19 @@ footer {
 .heading {
     font-size: 30px;
     padding: 20px 0;
+}
+
+/* For test */
+
+.cart-item {
+    display: flex;
+}
+
+.cart-item-img {
+    width: 100px;
+}
+
+.cart-item-name,
+.cart-item-price {
+    margin-left: 10px;
 }
