@@ -1,24 +1,24 @@
 // information.js
 const information = [
     {
-      title: 'Organic Garden',
-      image: 'image/Organic-Garden.jpg',
-      description: 'Information about organic gardening',
-      link: '/infomation/organic-garden.html',
+      title: 'Benefits Of Gardening',
+      image: '/image/infomation/benefits-of-gardening.jpg',
+      description: 'Information about benefit of gardening',
+      link: '/infomation/benefits-of-garden.html',
       type: 'tips'
     },
     {
-      title: 'Vegetable Garden',
-      image: 'image/Vegetable-Garden.jpg',
-      description: 'Information about vegetable gardening',
+      title: 'Get Start With Gardening',
+      image: '/image/infomation/get-start.jpg',
+      description: 'Information about start a garden',
       link: '/infomation/vegetable-garden.html',
       type: 'tips'
     },
     {
-      title: 'Vertical Garden',
-      image: 'image/Vertical-Garden.jpg',
-      description: 'Information about vertical gardening',
-      link: '/infomation/vertical-garden.html',
+      title: 'Planning For Garden',
+      image: '/image/infomation/planning.jpeg',
+      description: 'Information about planning for gardening',
+      link: '/infomation/planning.html',
       type: 'tips'
     }
   ];

@@ -176,7 +176,7 @@ background-color:rgba(63, 55, 55, 0.3);
 
 /* Caption text */
 .caption{
-color:#f2f2f2;
+color:#fc0000;
 font-size:20px;
 padding:8px 12px;
 position:absolute;
@@ -258,6 +258,10 @@ footer {
     color: #fff;
     margin: 0 5px;
 }
+
+.social-media a:hover {
+    color: #fc0000;
+}
   
 .copy-right {
     text-align: center;
@@ -301,4 +305,8 @@ footer {
 .cart-item-name,
 .cart-item-price {
     margin-left: 10px;
+}
+
+.list {
+    width: 100%;
 }

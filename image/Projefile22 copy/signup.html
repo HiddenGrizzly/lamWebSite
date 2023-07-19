@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" type="text/css" href="login.css">
+
+
+</head>
+<body>
+
+    <div class="menu-bar">
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="images/Earthy Garden logo.png" alt="logo" id="web-logo">
+                    </a>
+                </li>
+                <li><a href="#">INFOMATION</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Technique</a></li>
+                            <li><a href="#">Tips</a></li>
+                            <li><a href="#">Tools</a></li>
+                            <li><a href="#">Soil</a></li>
+                            <li><a href="#">Pesticides</a></li>
+                            <li><a href="#">Seeds</a></li>
+                            <li><a href="#">Pots</a></li>
+                            <li><a href="#">Miniature Toys</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Pebbles</a></li>
+                        </ul>
+                    </div>
+                </li> 
+                <li><a href="#"> PRODUCT </a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">.....</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#us">ABOUT US</a>
+                </li>
+                <li>
+                    <div>
+                        <div class="box">
+                          <input type="text" placeholder="Search here">
+                          <a><i class="fas fa-search-location"></i></a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <button id="shopping-cart"><i class="fas fa-shopping-cart icon"></i></button>
+                </li>
+                <li>
+                    <button id="user"><i class="fa-solid fa-user icon"></i></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-26">
+						Welcome
+                        
+					</span>
+                    <span>
+                        <img src="images/Earthy Garden logo.png" alt="" style="width: 100px;" class="imgpos">
+                    </span>
+					<span class="login100-form-title p-b-48">
+<i class="zmdi zmdi-font"></i>
+					</span>
+
+                    <div class="wrap-input100 validate-input" data-validate = "">
+						<input class="input100" type="text" name="name" required>
+						<span class="focus-input100" data-placeholder="First and last name"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						<input class="input100" type="text" name="name" required>
+						<span class="focus-input100" data-placeholder="Email"></span>
+					</div>
+
+                    
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" id="password" type="password" name="password" onkeyup="check()" required>
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" id="confirm_password" type="password" name="confirm_password" onkeyup="check()" required>
+						<span class="focus-input100" data-placeholder="Re-enter Password" id="Message"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Sign Up
+							</button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-115">
+						<span class="txt1">
+							Already have an account?
+						</span>
+
+						<a class="txt2" href="login.html">
+							Login
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+    
+	<footer>
+    <div class="footer-content">
+        <h3>About Us</h3>
+        <p>We are a group of students who created this website as part of our project. Our goal is to share our passion for gardening and provide useful information and products to help others discover the joys of gardening. We hope you find our website helpful and informative, and we welcome your feedback and suggestions.</p>
+        <p>Contact Us: EearthyGarden@gmail.com</p>
+        <ul class="socials">
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2023 Earthy Garden. All rights reserved.</p>
+    </div>
+   </footer>
+
+	<script src="cart.js"></script>
+   <script src="loginSignup.js"></script>
+
+</body>
+</html>

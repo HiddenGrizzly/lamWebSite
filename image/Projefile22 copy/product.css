@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+}
+
+.menu-bar {
+    display: inline-flex;
+    justify-content: center;
+    background: #111;
+    width: 100%;
+    height: 90px;
+    font-size: 40px;
+}
+
+#web-logo {
+    width: 65px;
+    height: 65px;
+    margin: -5px auto;
+    border-radius: 50%;
+    
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar ul li {
+    position: relative;
+    padding: 15px 15px;
+    height: 50px;
+    text-align: center;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 100;
+    width: 100%;
+    z-index: 1000;
+}
+
+.box {
+  height:55px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+ 
+input::placeholder {
+  color: rgb(253, 242, 227);
+}
+ 
+a {
+  color: whitesmoke;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+}
+ 
+.box:hover input {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid rgb(18, 18, 18);
+}
+ 
+input:focus {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid rgb(54, 54, 54);
+}
+
+.sub-menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sub-menu ul li {
+    padding: 5px 10px;
+    text-align: left;
+    background-color: #3333337d;
+    border-radius: 10%;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+}
+  
+.box {
+  height:55px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+ 
+input::placeholder {
+  color: rgb(253, 242, 227);
+}
+ 
+a {
+  color: whitesmoke;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+}
+ 
+.box:hover input {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid rgb(18, 18, 18);
+}
+ 
+input:focus {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid rgb(54, 54, 54);
+}
+
+#section2 {
+    height: 1900px;
+    background: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+footer {
+    height: auto;
+    background: #111;
+    width: 98.9vw;
+    text-align: center;
+    font-family: Open Sans;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px; 
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i {
+    color: aqua;
+}
+.foooter-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.foooter-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.foooter-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: 20px;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  
+
+  .container{
+    max-width: 1400px;
+    margin:0 auto;
+    padding:3rem 2rem;
+ }
+ 
+ .container .title{
+    font-size: 50px;
+    color:#444;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ 
+ .container .products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:2rem;
+ }
+ 
+ .container .products-container .product{
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    position: relative;
+ }
+ 
+ .container .products-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+ }
+ 
+ .container .products-container .product img{
+    height: 100px;
+ }
+ 
+ .container .products-container .product:hover img{
+    transform: scale(.9);
+ }
+ 
+ .container .products-container .product h3{
+    padding:.5rem 0;
+    font-size: 15px;
+    color:#444;
+ }
+ 
+ .container .products-container .product:hover h3{
+    color:#27ae60;
+ }
+ 
+ .container .products-container .product .price{
+    font-size: 2rem;
+    color:black;
+ }
+
+ .container .products-container .product p {
+    border: none;
+    color: black;
+  }
+  .product .AddToCart {
+    margin-top: 1rem;
+  }
+
+ .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .product button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 50px;
+    
+  }
+  
+  .product button:hover {
+    opacity: 0.7;
+  }
+  h3 {
+    height: 50px;
+  }
+
+
+.nxtprvbutton {
+  left: 166%;
+  position: relative;
+  bottom: -50%;
+  
+}
+
+.nxtprvbutton a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.nxtprvbutton.a:hover {
+  background-color: whitesmoke;
+  color: white;
+  
+}
+
+.previous {
+  background-color: black;
+  color: white;
+}
+
+.next {
+  background-color: black;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+  left: 50%;
+}
